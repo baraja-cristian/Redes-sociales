@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&family=Rubik&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(../img/fonfo-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: wheat;
+    font-family: 'Rubik', sans-serif;
+}
+div.padre{
+    width: 40%;
+    height: 300px;
+    background-color: #042940b6;
+    margin: auto;
+    margin-top: 10%;
+    padding: 15px;
+    transition: .5s all;
+}
+
+div.padre:hover{
+    transition: .5s all;
+    transform: scale(1.01);
+    border-radius: 10px 0 10px 0 ;
+}
+
+div.bloque{
+    display: flex;
+    margin: 10px auto;
+}
+
+div.bloque:hover{
+    cursor: pointer;
+    transition: .5s all;
+    transform: scale(1.02);
+}
+div.icono{
+    border-radius: 10px 0 0;
+    text-align: center;
+    padding: 20px;
+    width: 15%;
+    background-color: #005c538e;
+}
+
+div.icono i{
+    font-size: 30px;
+}
+
+div.red-social{
+    border-radius: 0 10px 0 0;
+    padding: 20px;
+    width: 85%;
+    text-align: center;
+    background-color: #038c3e85;
+}
+
+div.red-social a{
+    color: wheat;
+    text-decoration: none;
+    font-size: 20px;
+}
