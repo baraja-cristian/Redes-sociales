@@ -4,14 +4,16 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 body{
     background-image: url(../img/fonfo-1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    color: wheat;
+    color: white;
     font-family: 'Rubik', sans-serif;
 }
+
 div.padre{
     width: 40%;
     height: 300px;
@@ -20,6 +22,7 @@ div.padre{
     margin-top: 10%;
     padding: 15px;
     transition: .5s all;
+    text-align: center;   
 }
 
 div.padre:hover{
@@ -38,6 +41,7 @@ div.bloque:hover{
     transition: .5s all;
     transform: scale(1.02);
 }
+
 div.icono{
     border-radius: 10px 0 0;
     text-align: center;
@@ -59,7 +63,52 @@ div.red-social{
 }
 
 div.red-social a{
-    color: wheat;
+    color: white;
     text-decoration: none;
     font-size: 20px;
+}
+
+a.login{
+    color: white;
+    text-decoration: none;
+}
+
+@media screen and (max-width:530px) {
+
+    div.padre{
+        width: 80%;
+        margin: auto;
+        margin-top: 15%;
+    }
+    
+    div.icono{
+        width: 25%;
+    }
+    
+    div.icono i{
+        font-size: 25px;
+    }
+    
+    div.red-social{
+        width: 75%;
+    }    
+}
+
+
+@media screen and (max-width:720px) {
+
+    div.padre{
+        width: 65%;
+        margin: auto;
+        margin-top: 15%;
+    }
+}
+
+@media screen and (max-width:964px) {
+
+    div.padre{
+        width: 75%;
+        margin: auto;
+        margin-top: 15%;
+    }
 }
